@@ -21,8 +21,8 @@ const Contact: React.FC = () => {
     {
       icon: Linkedin,
       title: 'LinkedIn',
-      value: 'linkedin.com/in/hemanthnagasaibolisetty',
-      link: 'https://linkedin.com/in/hemanthnagasaibolisetty',
+      value: 'linkedin.com/in/hemanthbolisetty',
+      link: 'https://linkedin.com/in/hemanthbolisetty',
       color: 'text-blue-600'
     },
     {

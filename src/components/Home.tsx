@@ -13,7 +13,7 @@ const Home: React.FC = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/hemanthnagasaibolisetty',
+      url: 'https://linkedin.com/in/hemanthbolisetty',
       icon: Linkedin,
       color: 'hover:text-blue-600'
     },
