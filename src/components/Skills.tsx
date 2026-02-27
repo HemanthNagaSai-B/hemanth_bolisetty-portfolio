@@ -8,52 +8,63 @@ const Skills: React.FC = () => {
       title: 'Programming Languages',
       icon: Code,
       skills: [
-        { name: 'C', proficiency: 90 },
-        { name: 'Python', proficiency: 85 },
-        { name: 'Java', proficiency: 80 },
-        { name: 'HTML/CSS', proficiency: 95 },
-        { name: 'JavaScript', proficiency: 90 },
-        { name: 'TypeScript', proficiency: 85 }
+        { name: 'Java' },
+        { name: 'Python' },
+        { name: 'JavaScript' },
+        { name: 'TypeScript' },
+        { name: 'SQL' },
+        { name: 'C' },
+        { name: 'HTML5/CSS3' }
       ]
     },
     {
       title: 'Frameworks & Libraries',
       icon: Zap,
       skills: [
-        { name: 'React', proficiency: 90 },
-        { name: 'Redux', proficiency: 80 },
-        { name: 'Node.js', proficiency: 85 },
-        { name: 'Django / Django REST', proficiency: 80 },
-        { name: 'Spring Boot', proficiency: 75 },
-        { name: 'Tailwind CSS', proficiency: 85 }
+        { name: 'React' },
+        { name: 'Redux' },
+        { name: 'Node.js' },
+        { name: 'Django / Django REST' },
+        { name: 'Spring Boot / Spring Framework' },
+        { name: 'Tailwind CSS' },
+        { name: 'HTML5 / CSS3' },
+        { name: 'XML / JSON / YAML' },
+        { name: 'D3.js' },
+        { name: 'Maven' },
+        { name: 'RESTful APIs' }
       ]
     },
     {
       title: 'Databases',
       icon: Database,
       skills: [
-        { name: 'MySQL', proficiency: 85 },
-        { name: 'Supabase', proficiency: 80 },
-        { name: 'PostgreSQL', proficiency: 80 },
-        { name: 'AWS RDS', proficiency: 70 }
+        { name: 'PostgreSQL' },
+        { name: 'MySQL' },
+        { name: 'MongoDB' },
+        { name: 'DynamoDB' },
+        { name: 'Supabase' },
+        { name: 'AWS RDS' }
       ]
     },
     {
       title: 'Tools & Others',
       icon: Wrench,
       skills: [
-        { name: 'Git', proficiency: 90 },
-        { name: 'Docker', proficiency: 80 },
-        { name: 'Jenkins', proficiency: 75 },
-        { name: 'Postman', proficiency: 85 },
-        { name: 'Vercel', proficiency: 85 },
-        { name: 'AWS (EC2, Lambda)', proficiency: 70 },
-        { name: 'Kafka / Kafka Streams', proficiency: 75 },
-        { name: 'OAuth 2.0 / JWT / CORS', proficiency: 80 },
-        { name: 'D3.js', proficiency: 80 },
-        { name: 'Jest', proficiency: 80 },
-        { name: 'SPARQL', proficiency: 75 },
-        { name: 'RDF/OWL', proficiency: 70 }
+        { name: 'Git' },
+        { name: 'Docker' },
+        { name: 'Jenkins' },
+        { name: 'Postman' },
+        { name: 'Vercel' },
+        { name: 'Jira' },
+        { name: 'Kubernetes' },
+        { name: 'Terraform' },
+        { name: 'CloudFormation' },
+        { name: 'AWS (EC2, S3, ECR, EKS, SNS, RDS, Lambda, CloudWatch, SageMaker, Redshift, Kinesis)' },
+        { name: 'Kafka / Kafka Streams' },
+        { name: 'OAuth 2.0 / JWT / CORS' },
+        { name: 'Jest' },
+        { name: 'JUnit / Pytest / Spring Test' },
+        { name: 'Cypress' }
       ]
     }
   ];
@@ -79,21 +90,10 @@ const Skills: React.FC = () => {
     }
   };
 
-  const ProgressBar: React.FC<{ proficiency: number; name: string }> = ({ proficiency, name }) => (
-    <div className="mb-4">
-      <div className="flex justify-between items-center mb-2">
-        <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{name}</span>
-        <span className="text-sm text-gray-500 dark:text-gray-400">{proficiency}%</span>
-      </div>
-      <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-        <motion.div
-          className="bg-gradient-to-r from-primary-500 to-blue-500 h-2 rounded-full"
-          initial={{ width: 0 }}
-          animate={{ width: `${proficiency}%` }}
-          transition={{ duration: 1, delay: 0.5 }}
-        />
-      </div>
-    </div>
+  const SkillBadge: React.FC<{ name: string }> = ({ name }) => (
+    <span className="inline-block px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-sm font-medium rounded-full">
+      {name}
+    </span>
   );
 
   return (
@@ -113,7 +113,7 @@ const Skills: React.FC = () => {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Technical Skills</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            My technical expertise and proficiency levels across various technologies
+            A comprehensive overview of technologies and tools I work with
           </p>
         </motion.div>
 
@@ -141,12 +141,11 @@ const Skills: React.FC = () => {
               </div>
 
               {/* Skills List */}
-              <div className="space-y-4">
+              <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill, idx) => (
-                  <ProgressBar
+                  <SkillBadge
                     key={idx}
                     name={skill.name}
-                    proficiency={skill.proficiency}
                   />
                 ))}
               </div>
@@ -206,20 +205,20 @@ const Skills: React.FC = () => {
         >
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary-600 mb-2">6</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">7</div>
               <div className="text-gray-600 dark:text-gray-300">Languages</div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary-600 mb-2">5</div>
-              <div className="text-gray-600 dark:text-gray-300">Frameworks</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">11</div>
+              <div className="text-gray-600 dark:text-gray-300">Frameworks/Libraries</div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary-600 mb-2">3</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">6</div>
               <div className="text-gray-600 dark:text-gray-300">Databases</div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg">
-              <div className="text-3xl font-bold text-primary-600 mb-2">9</div>
-              <div className="text-gray-600 dark:text-gray-300">Tools</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">16</div>
+              <div className="text-gray-600 dark:text-gray-300">Tools & Cloud</div>
             </div>
           </div>
         </motion.div>
