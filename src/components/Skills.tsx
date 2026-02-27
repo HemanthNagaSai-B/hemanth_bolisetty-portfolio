@@ -23,8 +23,9 @@ const Skills: React.FC = () => {
         { name: 'React', proficiency: 90 },
         { name: 'Redux', proficiency: 80 },
         { name: 'Node.js', proficiency: 85 },
-        { name: 'Django', proficiency: 80 },
-        { name: 'Spring Boot', proficiency: 75 }
+        { name: 'Django / Django REST', proficiency: 80 },
+        { name: 'Spring Boot', proficiency: 75 },
+        { name: 'Tailwind CSS', proficiency: 85 }
       ]
     },
     {
@@ -33,7 +34,8 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'MySQL', proficiency: 85 },
         { name: 'Supabase', proficiency: 80 },
-        { name: 'PostgreSQL', proficiency: 80 }
+        { name: 'PostgreSQL', proficiency: 80 },
+        { name: 'AWS RDS', proficiency: 70 }
       ]
     },
     {
@@ -45,6 +47,9 @@ const Skills: React.FC = () => {
         { name: 'Jenkins', proficiency: 75 },
         { name: 'Postman', proficiency: 85 },
         { name: 'Vercel', proficiency: 85 },
+        { name: 'AWS (EC2, Lambda)', proficiency: 70 },
+        { name: 'Kafka / Kafka Streams', proficiency: 75 },
+        { name: 'OAuth 2.0 / JWT / CORS', proficiency: 80 },
         { name: 'D3.js', proficiency: 80 },
         { name: 'Jest', proficiency: 80 },
         { name: 'SPARQL', proficiency: 75 },
