@@ -13,11 +13,15 @@ const Experience: React.FC = () => {
       description: 'Full-stack development role focusing on building scalable web applications and student opportunity portals.',
       technologies: ['Next.js', 'Tailwind CSS', 'Django', 'Vercel','PostgreSQL', 'CI/CD', 'REST APIs', 'Postman'],
       achievements: [
-        'Boosted productivity 30% by delivering a full-stack student portal using Next.js, Tailwind, Django, and Supabase.',
-        'Achieved 100% API uptime by building Django REST endpoints and integrating PostgreSQL/Supabase.',
-        'Cut release time 25% using automated CI/CD on Vercel with Git-based rollback and staging.',
-        'Secured platform via JWT role access, CORS, and input validation on backend and frontend.',
-        'Collaborated with product and QA teams to prioritize backlog, resolve bugs, and deliver sprint goals on time.'
+        'Shipped customer-facing portal features using React, TypeScript, Tailwind, and backend services in Python (Django REST) improving internal workflows by 30%.',
+        'Designed and integrated REST APIs in Python to support core workflows (CRUD, filtering), backed by Supabase.',
+        'Built responsive, data-heavy UI flows with HTML/CSS and reusable components to keep UX consistent across pages.',
+        'Used Vercel CI/CD (preview deploys, staging, rollback) to ship frequent releases and cut release cycle time by 25%.',
+        'Implemented secure authentication and role-based authorization using JWT, protecting routes and workflows end-to-end.',
+        'Strengthened API security and reliability with CORS policy hardening, input validation, and defensive error handling.',
+        'Optimized API efficiency through payload shaping, sane timeouts, and standardized error responses to improve reliability.',
+        'Wrote maintainable, review-friendly code with clear PRs, iterative feedback cycles, and refactors to reduce tech debt.',
+        'Improved reliability by adding unit and integration tests and participating in Agile/Scrum ceremonies.'
       ],
       icon: Code
     },
@@ -26,19 +30,20 @@ const Experience: React.FC = () => {
       companyUrl: 'https://www.tcs.com/',
       position: 'Software Engineer',
       period: 'Nov 2021 – Jun 2023',
-      location: 'Hyderabad, India',
+      location: 'Hyderabad, Telangana',
       description: 'Built Spring Boot microservices and Kafka pipelines for automotive safety systems in an Agile environment.',
       technologies: [
 'Spring Boot', 'Kafka', 'Kafka Streams', 'Postman', 'OAuth 2.0 / OIDC / JWT', 'Jenkins', 'Docker', 'Git'],
       achievements: [
-        'Delivered high-quality automotive safety software in Agile; developed and maintained multiple Spring Boot APIs with 15+ routes, validated via Postman.',
-        'Improved Kafka-based ECU data processing by implementing distributed consumers, increasing throughput 30% and reducing latency from 3.5s to 0.7s.',
-        'Built a Spring Boot microservice for real-time vehicle sensor data using Kafka Streams, enabling scalable and fault-tolerant diagnostics handling.',
-        'Secured APIs and microservices with OAuth 2.0, OpenID Connect, and JWT authentication for industry-standard access control.',
-        'Coordinated with cross-functional teams to implement scalable architecture changes for ECU modules.',
-        'Implemented and optimized a CI/CD pipeline for seamless software delivery, utilizing Jenkins, Docker, and Git.',
-        'Wrote and maintained unit, regression, and functional test suites to catch defects before release.',
-        'Led a two-person team to bootstrap a new microservice from RFC to first production release.'
+        'Built and maintained Java Spring Boot microservices with 15+ REST endpoints for an automotive platform; validated API behavior with Postman test suites.',
+        'Optimized Kafka-based ECU data processing by implementing distributed consumers, increasing throughput by 30% and reducing latency from 3.5s to 0.7s per message.',
+        'Refined PostgreSQL queries and indexes, improving database performance and reducing query latency by 40%.',
+        'Developed a diagnostics microservice using Kafka Streams to support scalable, fault-tolerant processing of vehicle events.',
+        'Implemented secure access control using OAuth 2.0, OpenID Connect, and JWT-based authentication across services.',
+        'Streamlined delivery by implementing CI/CD pipelines with Jenkins, Docker, and Git for builds and deployments.',
+        'Supported cloud-hosted deployments using AWS (EC2, Lambda, RDS) and database sync workflows during release cycles.',
+        'Strengthened service resilience with retries/backoff patterns and safer handling of edge cases in event-driven flows.',
+        'Collaborated with cross-functional teams in Agile sprints to plan releases, debug execution errors, monitor logs, troubleshoot modification blockers, and ensure seamless production deployments in an Agile environment.'
       ],
       icon: Cpu
     },
@@ -47,13 +52,15 @@ const Experience: React.FC = () => {
       companyUrl: 'https://www.cuemath.com/',
       position: 'Software Developer',
       period: 'Jan 2021 – Jun 2021',
-      location: 'Remote',
+      location: 'Bengaluru, Karnataka',
       description: 'Worked on JavaScript-based learning platforms with a focus on performance, analytics, and content integration.',
       technologies: ['JavaScript', 'GeoGebra', 'Web Development', 'Educational Tech', 'Performance', 'User Analytics',],
       achievements: [
-        'Improved app performance by debugging and optimizing JavaScript-based learning platforms.',
-        'Researched user interaction data and provided insights that guided curriculum updates and new feature development.',
-        'Integrated new content modules via REST APIs, ensuring seamless backend communication and data consistency.'
+        'Improved reliability of JavaScript-based learning applications by debugging UI issues and optimizing interaction flows.',
+        'Integrated content modules via REST APIs, ensuring consistent client-server communication and dependable data updates.',
+        'Enhanced user experience by fixing rendering/state bugs and improving responsiveness across common learner journeys.',
+        'Analyzed user interaction patterns to inform content changes and prioritize product improvements based on learner behavior.',
+        'Collaborated with product teams to translate requirements into incremental releases and validate outcomes.'
       ],
       icon: Database
     }
