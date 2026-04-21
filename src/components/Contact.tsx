@@ -4,13 +4,7 @@ import { Mail, Linkedin, Github, Download, MapPin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const contactInfo = [
-    {
-      icon: Mail,
-      title: 'ASU Email',
-      value: 'hbolise2@asu.edu',
-      link: 'mailto:hbolise2@asu.edu',
-      color: 'text-red-500'
-    },
+    
     {
       icon: Mail,
       title: 'Personal Email',
@@ -18,6 +12,15 @@ const Contact: React.FC = () => {
       link: 'mailto:hemanthnagasai1999@gmail.com',
       color: 'text-orange-500'
     },
+    
+    {
+      icon: Mail,
+      title: 'ASU Email',
+      value: 'hbolise2@asu.edu',
+      link: 'mailto:hbolise2@asu.edu',
+      color: 'text-red-500'
+    },
+    
     {
       icon: Linkedin,
       title: 'LinkedIn',

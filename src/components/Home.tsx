@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   const socialLinks = [
     {
       name: 'Email',
-      url: 'mailto:hbolise2@asu.edu',
+      url: 'mailto:hemanthnagasai1999@gmail.com"',
       icon: Mail,
       color: 'hover:text-red-500'
     },
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
           >
             <img
               src="/profile.jpg" // Place your photo as 'public/profile.jpg'
-              alt="Hemanth Naga Sai Bolisetty"
+              alt="Hemanth Bolisetty"
               className="w-full h-full object-cover"
             />
           </motion.div>
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold mb-4"
           >
-            <span className="gradient-text">Hemanth Naga Sai Bolisetty</span>
+            <span className="gradient-text">Hemanth Bolisetty</span>
           </motion.h1>
 
           <motion.h2

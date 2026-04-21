@@ -5,23 +5,23 @@ import { Briefcase, Calendar, MapPin, ExternalLink, Code, Database, Cpu } from '
 const Experience: React.FC = () => {
   const experienceData = [
     {
-      company: 'Vizworld Inc.',
-      companyUrl: 'https://vizworld.com/',
+      company: 'Libert Mutual.',
+      companyUrl: 'https://www.libertymutual.com/',
       position: 'Software Developer',
       period: 'Jun 2025 – Current',
       location: 'Remote',
       description: 'Full-stack development role focusing on building scalable web applications and student opportunity portals.',
       technologies: ['Next.js', 'Tailwind CSS', 'Django', 'Vercel','PostgreSQL', 'CI/CD', 'REST APIs', 'Postman'],
       achievements: [
-        'Shipped customer-facing portal features using React, TypeScript, Tailwind, and backend services in Python (Django REST) improving internal workflows by 30%.',
-        'Designed and integrated REST APIs in Python to support core workflows (CRUD, filtering), backed by Supabase.',
-        'Built responsive, data-heavy UI flows with HTML/CSS and reusable components to keep UX consistent across pages.',
-        'Used Vercel CI/CD (preview deploys, staging, rollback) to ship frequent releases and cut release cycle time by 25%.',
-        'Implemented secure authentication and role-based authorization using JWT, protecting routes and workflows end-to-end.',
-        'Strengthened API security and reliability with CORS policy hardening, input validation, and defensive error handling.',
-        'Optimized API efficiency through payload shaping, sane timeouts, and standardized error responses to improve reliability.',
-        'Wrote maintainable, review-friendly code with clear PRs, iterative feedback cycles, and refactors to reduce tech debt.',
-        'Improved reliability by adding unit and integration tests and participating in Agile/Scrum ceremonies.'
+        'Delivered portal features using React, TypeScript, and Java Spring Boot, improved internal workflows by 30%.',
+        'Built Spring Boot REST APIs backed by DynamoDB to support portal workflows and reduce manual handoffs.',
+        'Developed reusable React UI components for data-heavy workflows, improving consistency and maintainability across pages',
+        'Automated build, deployment, and rollback pipelines using GitHub Actions and Jenkins, increasing release stability and lowering deployment risk.',
+        'Implemented authentication and role-based authorization using JWT, strengthening access control across protected routes.',
+        'Strengthened API security and reliability with CORS hardening, input validation, and defensive error handling.',
+        'Optimized API efficiency through payload shaping, sane timeouts, and standardized error responses.',
+        'Deployed and orchestrated containerized services on AWS EKS, achieving 99.5% production uptime.',
+        'Increased release confidence by adding unit and integration tests and participating in Agile/Scrum ceremonies.'
       ],
       icon: Code
     },
@@ -35,15 +35,15 @@ const Experience: React.FC = () => {
       technologies: [
 'Spring Boot', 'Kafka', 'Kafka Streams', 'Postman', 'OAuth 2.0 / OIDC / JWT', 'Jenkins', 'Docker', 'Git'],
       achievements: [
-        'Built and maintained Java Spring Boot microservices with 15+ REST endpoints for an automotive platform; validated API behavior with Postman test suites.',
-        'Optimized Kafka-based ECU data processing by implementing distributed consumers, increasing throughput by 30% and reducing latency from 3.5s to 0.7s per message.',
-        'Refined PostgreSQL queries and indexes, improving database performance and reducing query latency by 40%.',
+        'Built and maintained Java Spring Boot microservices with 45+ REST endpoints for an automotive platform; validated API behavior with Postman test suites.',
+        'Increased Kafka processing throughput by 30% and reducing latency from 3.5s to 0.7s per message by implementing distributed consumers',
+        'Reduced PostgreSQL query latency by 40% through query tuning and indexing improvements.',
         'Developed a diagnostics microservice using Kafka Streams to support scalable, fault-tolerant processing of vehicle events.',
-        'Implemented secure access control using OAuth 2.0, OpenID Connect, and JWT-based authentication across services.',
-        'Streamlined delivery by implementing CI/CD pipelines with Jenkins, Docker, and Git for builds and deployments.',
-        'Supported cloud-hosted deployments using AWS (EC2, Lambda, RDS) and database sync workflows during release cycles.',
-        'Strengthened service resilience with retries/backoff patterns and safer handling of edge cases in event-driven flows.',
-        'Collaborated with cross-functional teams in Agile sprints to plan releases, debug execution errors, monitor logs, troubleshoot modification blockers, and ensure seamless production deployments in an Agile environment.'
+        'Strengthened cross-service security by implementing OAuth 2.0, OpenID Connect, and JWT-based authentication.',
+        'Built and deployment workflows using Jenkins, Docker, and Git improving delivery speed and release consistency.',
+        'Supported AWS-hosted deployments across EC2, Lambda, and RDS environments during release cycles and updates.',
+        'Improved resilience in event-driven services by adding retries, backoff handling, and safer edge-case processing.',
+        'Partnered with cross-functional teams in Agile sprints to plan releases, troubleshoot blockers, and ensure seamless production deployments in an Agile environment.'
       ],
       icon: Cpu
     },
@@ -56,10 +56,10 @@ const Experience: React.FC = () => {
       description: 'Worked on JavaScript-based learning platforms with a focus on performance, analytics, and content integration.',
       technologies: ['JavaScript', 'GeoGebra', 'Web Development', 'Educational Tech', 'Performance', 'User Analytics',],
       achievements: [
-        'Improved reliability of JavaScript-based learning applications by debugging UI issues and optimizing interaction flows.',
-        'Integrated content modules via REST APIs, ensuring consistent client-server communication and dependable data updates.',
-        'Enhanced user experience by fixing rendering/state bugs and improving responsiveness across common learner journeys.',
-        'Analyzed user interaction patterns to inform content changes and prioritize product improvements based on learner behavior.',
+        'Improved reliability of JavaScript-based learning applications by resolving UI defects and optimizing flows.',
+        'Integrated REST-based content modules to improve client-server data consistency and support dependable content updates.',
+        'Fixed rendering and state-management issues to improve responsiveness and user experience across common usage paths.',
+        'Analyzed user interaction patterns to guide content updates and prioritize improvements based on actual learner behavior.',
         'Collaborated with product teams to translate requirements into incremental releases and validate outcomes.'
       ],
       icon: Database

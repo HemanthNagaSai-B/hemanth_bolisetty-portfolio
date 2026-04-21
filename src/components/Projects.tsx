@@ -256,7 +256,7 @@ const Projects: React.FC = () => {
               Let's work together to bring your ideas to life!
             </p>
             <a
-              href="mailto:hbolise2@asu.edu"
+              href="mailto:hemanthnagasai1999@gmail.com"
               className="inline-flex items-center px-8 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               Get In Touch

@@ -1,4 +1,4 @@
-# Hemanth Naga Sai Bolisetty - Personal Portfolio
+# Hemanth Bolisetty - Personal Portfolio
 
 A modern, responsive personal portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark mode support, and a comprehensive showcase of skills, experience, and projects.
 
@@ -143,8 +143,8 @@ Modify the Tailwind classes in each component to adjust the design to your prefe
 
 ## 📞 Contact
 
-- **Email**: hbolise2@asu.edu
-- **LinkedIn**: [linkedin.com/in/hemanthnagasaibolisetty](https://linkedin.com/in/hemanthnagasaibolisetty)
+- **Email**: hemanthnagasai1999@gmail.com
+- **LinkedIn**: [linkedin.com/in/hemanthbolisetty](https://www.linkedin.com/in/hemanthbolisetty/)
 - **GitHub**: [github.com/HemanthNagaSai-B](https://github.com/HemanthNagaSai-B)
 
 ## 🙏 Acknowledgments

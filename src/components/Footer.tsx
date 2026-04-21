@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       name: 'Email',
-      url: 'mailto:hbolise2@asu.edu',
+      url: 'mailto:hemanthnagasai1999@gmail.com',
       icon: Mail,
       color: 'hover:text-red-500'
     },
@@ -58,8 +58,8 @@ const Footer: React.FC = () => {
           {/* Contact Info */}
           <div className="text-center md:text-right">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-1">
-              <a href="mailto:hbolise2@asu.edu" className="hover:text-primary-600 transition-colors">
-                hbolise2@asu.edu
+              <a href="mailto:hemanthnagasai1999@gmail.com" className="hover:text-primary-600 transition-colors">
+                hemanthnagasai1999@gmail.com
               </a>
             </p>
             <p className="text-gray-600 dark:text-gray-300 text-sm">
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 md:mb-0">
-              © {currentYear} Hemanth Naga Sai Bolisetty. All rights reserved.
+              © {currentYear} Hemanth Bolisetty. All rights reserved.
             </p>
             <div className="flex items-center text-gray-600 dark:text-gray-300 text-sm">
               <span>Made with</span>
